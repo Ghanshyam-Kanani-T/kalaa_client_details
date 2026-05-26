@@ -18,7 +18,7 @@
 - **Colors/Fonts preference:**
 
 ## 4. Products / Services
-- **Key Products/Services:** Mysore Dosa, Gotalo, Pakal Paneer Dosa, Pulav
+- **Key Products/Services:** Mysore Dosa, Gotalo, palak Paneer Dosa, Pulav
 - **USP / What makes them different:** Taste
 - **Best Sellers / Most Popular:**
 
