@@ -71,6 +71,8 @@ Use web search to ground the plan in reality, not your priors. Run searches in *
 - **Trends in this niche, this year** — e.g., `"Instagram trends restaurant reels 2026"`, `"jewellery content trends India 2026"`. Look for format trends (POV, transformation, B-roll), not just topic trends.
 - **Trending hooks/audio for the niche** — what's working in the first 3 seconds, what audio is currently used.
 - **Festivals and observances** for the target month, scoped to **India / Gujarat / Surat** — both major (Diwali, Eid, Navratri, Janmashtami, Ganesh Chaturthi) and minor/regional ones. Include national/international days that fit the niche (World Food Day, National Doctors Day, etc.) only when they're a natural fit, not as filler.
+
+  **EXCLUDE fasting days for restaurant / food clients.** Do NOT anchor a post on **Ekadashi** (twice a month), **Pradosh Vrat**, **Sankashti Chaturthi**, **Shravan Mondays**, or any vrat / upvas day. On these days the target audience is *fasting* — they are not going out to eat and not the buying audience for restaurant content. Note these dates internally so you don't accidentally schedule a heavy-meal post on them, but do not create content around them. This rule applies to restaurants, bakeries, sweet shops, and any food client. For other categories (jewellery, boutique, salon), use judgment — fasting days are often spiritual/family days that may still fit.
 - **Local Surat events** if any — exhibitions, melas, sport tournaments, school calendars (affects family-restaurant traffic).
 - **Seasonal context** — monsoon affects food cravings and footfall, summer drives drinks/AC interiors, wedding season (Nov–Feb, May–Jun) drives jewellery + boutiques.
 - **Competitor patterns** in that niche — what kind of posts are local competitors doing this month.
@@ -85,7 +87,9 @@ The output is **always 12 static posts + 4 reels** spread across the month. This
 - Spread the 16 pieces across the month, roughly one every 2 days.
 - Mix content types within each week — don't put 4 product showcases back-to-back.
 - For each festival, schedule the post **2–3 days before the festival**, not on the day (the audience plans ahead, and ad managers need buffer).
-- If the client file says "avoid weekends" or similar, respect it; otherwise weekends are fine for engagement/festival/lifestyle posts and often the best slot for reels.
+- **NEVER schedule a post on a Sunday.** Kalaa's office is closed on Sundays, so Sunday-flavored content (family-day, weekend brunch, "Sunday vibes") is **posted on Saturday instead**. Saturday becomes the de-facto weekend post day. Saturdays can carry a reel + a static on the same day — that's expected, not a bug. If the client file explicitly overrides with Sunday posting permission, respect it; otherwise this is a hard rule.
+- For the same reason, prefer to land **all reels on Saturdays** (highest reach, single weekend slot the team has time to publish before Sunday's blackout).
+- If the client file says "avoid weekends" or similar, respect it; otherwise Saturday is fine for engagement/festival/lifestyle posts.
 
 #### Content theme palette
 
@@ -111,6 +115,8 @@ Pick from these themes when assigning each post. Aim for a balanced mix across t
 - **Visual direction** — one or two sentences a designer can act on: framing, mood, props, text overlay if any.
 - **Caption language hint** — note in the client's preferred language whether the caption should be Gujarati, Hindi, English, or mixed (Hinglish/Gujlish), based on the profile. Don't write the full caption unless the user asks — focus on the idea, the designer/copywriter writes the final caption.
 - **Why this post** — one line: why this content, this date, this audience.
+
+**Caption rules (when captions are actually generated):** Keep captions **short — max 4 lines** (hook line + body line + CTA + mention). Always **exactly 5 hashtags** — 1–2 niche, 1–2 trending, 1 location. No bloat, no 15-hashtag walls.
 
 #### For each reel (4 by default), produce:
 
@@ -190,7 +196,9 @@ Product: X · Festival: Y · BTS: Z · …
 - **Generic ideas.** "Post a food picture" is a placeholder, not an idea. Replace it.
 - **Brand-mismatched tone.** A meme-y trending-format reel for a premium jewellery client is wrong even if it's trending.
 - **Ignoring `Topics to avoid`.** This is a hard constraint from the client.
-- **Language drift.** If the profile says Gujarati, hooks and caption-language hints should be in Gujarati (Gujarati script or Roman, follow what they're already doing on their existing social).
+- **Anchoring food posts on fasting days.** No Ekadashi, Pradosh, Sankashti, Shravan Monday, or vrat-day posts for restaurants / bakeries / sweet shops. The audience is fasting on those days — they are not the buying audience. (See Step 4 research rule.)
+- **Language drift.** If the profile says Gujarati, hooks and caption-language hints should be in Gujarati (Gujarati script or Roman, follow what they're already doing on their existing social). Avoid Hindi loanwords sneaking into Gujarati lines.
+- **Caption bloat.** Captions over 4 lines or with more than 5 hashtags get scrolled past. The rule is 4 lines max + exactly 5 hashtags.
 - **Festival pile-up.** If a month has 3 festivals, don't make all 12 posts festival posts. Festivals lift, they don't replace.
 - **Bunching.** If posts 1–6 all fall in week 1, the spacing is broken.
 - **Inventing facts.** Don't claim a festival is on a date you didn't verify; don't fabricate trends. If you couldn't confirm something in research, say so or leave it out.
