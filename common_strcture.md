@@ -12,6 +12,7 @@ This repo contains standard client information used by Claude AI skills to gener
 ### 1. Business Info
 - **Business Name:**
 - **Business Type:** (restaurant / jewellery / interior / salon / boutique / machinery / other)
+-**Contact NumberL**
 - **Location:** (city, area)
 - **Website/Google Maps link:**
 
