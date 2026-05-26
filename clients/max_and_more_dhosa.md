@@ -3,6 +3,7 @@
 ## 1. Business Info
 - **Business Name:** Max & More Dhosa House
 - **Business Type:** Dhosa Restaurant
+  **Contact Number:**+91 97144 95000
 - **Location:** Katargam, Surat
 - **Website/Google Maps link:**
 
