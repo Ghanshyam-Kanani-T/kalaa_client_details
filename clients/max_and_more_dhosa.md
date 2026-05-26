@@ -4,7 +4,7 @@
 - **Business Name:** Max & More Dhosa House
 - **Business Type:** Dhosa Restaurant
   **Contact Number:**+91 97144 95000
-- **Location:** Katargam, Surat
+- **Location:** Niru Farm, Gajera Rd, beside Rajhans Flamingo, Priya Park Society, Katargam, Surat.
 - **Website/Google Maps link:**
 
 ## 2. Target Audience
