@@ -87,8 +87,9 @@ The output is **always 12 static posts + 4 reels** spread across the month. This
 - Spread the 16 pieces across the month, roughly one every 2 days.
 - Mix content types within each week — don't put 4 product showcases back-to-back.
 - For each festival, schedule the post **2–3 days before the festival**, not on the day (the audience plans ahead, and ad managers need buffer).
-- **NEVER schedule a post on a Sunday.** Kalaa's office is closed on Sundays, so Sunday-flavored content (family-day, weekend brunch, "Sunday vibes") is **posted on Saturday instead**. Saturday becomes the de-facto weekend post day. Saturdays can carry a reel + a static on the same day — that's expected, not a bug. If the client file explicitly overrides with Sunday posting permission, respect it; otherwise this is a hard rule.
-- For the same reason, prefer to land **all reels on Saturdays** (highest reach, single weekend slot the team has time to publish before Sunday's blackout).
+- **Default: avoid Sundays — but allow Sundays for festival posts.** Kalaa's office is closed on Sundays, so routine "Sunday vibes" / weekend-brunch / family-day day-of content shifts to **Saturday**. Saturdays can carry a reel + a static on the same day — that's fine.
+- **Sunday exception — festivals and pre-scheduled launches.** Festival posts go up **2–3 days before** the festival so the audience plans ahead. If that 2–3-day buffer lands on a Sunday, **post on the Sunday** — the festival lift outranks the office-closed default. Same if the festival itself falls on a Sunday and day-of relevance matters. These are pre-scheduled in advance via Meta Business Suite / Buffer, so no day-of office support is needed. **Do not shrink the festival calendar just to dodge Sundays.**
+- Prefer to land **most reels on Saturdays** (highest reach, team can publish before Sunday). But a Sunday-festival reel rides Sunday — same logic as above.
 - If the client file says "avoid weekends" or similar, respect it; otherwise Saturday is fine for engagement/festival/lifestyle posts.
 
 #### Content theme palette
