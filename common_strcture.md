@@ -26,6 +26,9 @@ This repo contains standard client information used by Claude AI skills to gener
 - **Brand Vibe:** (premium / fun / traditional / modern / quirky / professional)
 - **Tagline (if any):**
 - **Colors/Fonts preference (if any):**
+- **Voice register:** (casual Gujlish / conversational Gujarati / Hinglish / polished Gujarati / English-led) — how the client actually speaks to their audience, distinct from the language preference above
+- **Sample voice line:** (1–2 lines the client would actually say, in their actual register — primary register signal for the viral-reel-scripter skill's Rule 4 voice-match. Example for a casual-Gujlish restaurant: *"ek var taste karso etle bija var jarur aavso"*)
+- **Forbidden phrases / register no-go's:** (words/phrases this client does NOT use. E.g., a premium jewellery client doesn't say "best deals"; a family restaurant doesn't say "exclusive offer"; a casual brand doesn't use polished Gujarati like "padharsho" / "swadishtha")
 
 ### 4. Products / Services
 - **Key Products/Services (list top 5-10):**
