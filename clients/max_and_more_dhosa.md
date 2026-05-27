@@ -11,7 +11,7 @@
 - **Age Range:** All
 - **Gender:** Both
 - **Audience Type:** Local
-- **Language Preference:** Gujarati
+- **Language Preference:** Gujlish , gujrati , hindi
 
 ## 3. Brand Identity
 - **Brand Vibe:** Family Restaurant
