@@ -31,7 +31,7 @@ The writer's opening message usually contains the client name: *"Create a reel s
 | `Angoori Bliss` | `angoori_bliss.md` |
 | `the diamond client` | (ambiguous — ask which one) |
 
-List the directory first, then fetch the matched file. See [References → Fetching files from the repo](#references) for how. The repo is private; the user's PAT must be configured (via the `github` MCP or local `gh auth`). If auth fails, surface it cleanly — don't guess.
+List the directory first, then fetch the matched file. See [References → Fetching files from the repo](#references) for how. The repo is **public** — no auth needed. Any environment with web access (Claude web, Claude Code, Claude API) can fetch it directly. If the fetch fails (network error, file renamed), surface it cleanly — don't guess.
 
 **If no match:**
 1. Tell the writer the client wasn't found.
@@ -321,9 +321,12 @@ When creating a new client file (Step 1, no-match path), use this structure — 
 
 ### Fetching files from the repo
 
-The repo `Ghanshyam-Kanani-T/kalaa_client_details` is private. Two paths:
+The repo `Ghanshyam-Kanani-T/kalaa_client_details` is **public** — no auth, no PAT, no GitHub MCP required. Any Claude environment with web access can read it. Pick whichever path is available to you in order of preference:
 
-1. **`gh` CLI** if installed: `gh api repos/Ghanshyam-Kanani-T/kalaa_client_details/contents/clients` to list, then `gh api .../clients/<file>.md --jq .content | base64 -d` to fetch.
-2. **GitHub REST API** with the user's PAT — fetch `https://api.github.com/repos/Ghanshyam-Kanani-T/kalaa_client_details/contents/clients/<file>.md` with `Accept: application/vnd.github.v3.raw` to get the file body directly.
+1. **Public raw URL** (works everywhere — Claude web with `WebFetch`, Claude Code with `WebFetch` or `curl`, Claude API tools):
+   - List clients: `https://api.github.com/repos/Ghanshyam-Kanani-T/kalaa_client_details/contents/clients` — returns JSON with each file's `name` and `download_url`.
+   - Fetch a file: `https://raw.githubusercontent.com/Ghanshyam-Kanani-T/kalaa_client_details/main/clients/<file>.md` — returns the markdown body directly.
+2. **GitHub MCP server** if connected — use `mcp__github__get_file_contents` with `owner: Ghanshyam-Kanani-T`, `repo: kalaa_client_details`, `path: clients` (or `clients/<file>.md`).
+3. **`gh` CLI** if installed: `gh api repos/Ghanshyam-Kanani-T/kalaa_client_details/contents/clients` to list, then `gh api .../clients/<file>.md --jq .content | base64 -d` to fetch.
 
-If the PAT isn't configured locally, tell the writer plainly — don't proceed with guesses.
+If the fetch fails (network error, file genuinely missing, repo moved), tell the writer plainly — don't proceed with guesses.
