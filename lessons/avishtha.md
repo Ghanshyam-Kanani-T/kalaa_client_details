@@ -3,4 +3,5 @@
 
 ## Active rules (hard constraints — read on every content generation)
 
-- ✅ State USP benefits concretely — durability and unique-design must be shown in plain, tangible terms the viewer instantly gets (e.g. "10 saal baad bhi naya jaisa", "har ghar scratch se, sirf aapke liye"), never abstract or poetic lines — [scope: all reels]
+- ✅ State USP benefits concretely — durability and unique-design shown in plain, tangible terms the viewer instantly gets (e.g. "saalo saal chale", "har ghar scratch se, sirf aapke liye"), never abstract or poetic lines — [scope: all reels]
+- 🚫 Don't claim a specific number of years for durability (no "10 saal") — keep it general, e.g. "saalo saal chale" — [scope: all reels]
