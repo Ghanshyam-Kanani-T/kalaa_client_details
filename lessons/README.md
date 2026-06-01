@@ -11,13 +11,13 @@ This folder holds **auto-maintained, per-client rule files** captured by the `ka
 ## Two design guarantees
 
 1. **Fully automatic** — captured from natural writer feedback; nobody edits these by hand, and the skill asks no blocking questions.
-2. **Sharper, not heavier** — each file is a **bounded ruleset (~15 rules max)**, never an append-only log. New lessons are *consolidated* (deduped + generalized) into existing rules, so the file stays small forever and token cost stays flat. **History lives in git** (`git log <file>`), never inside the file.
+2. **Sharper, not heavier** — each file is a **bounded ruleset (~25 rules max)**, never an append-only log. New lessons are *consolidated* (deduped + generalized) into existing rules, so the file stays small forever and token cost stays flat. **History lives in git** (`git log <file>`), never inside the file.
 
 ## File schema
 
 ```markdown
 # Lessons — {Client Name}
-<!-- Auto-maintained by the kalaa-lessons skill. Max ~15 rules. Consolidated on every capture. History lives in git log. Do not hand-edit. -->
+<!-- Auto-maintained by the kalaa-lessons skill. Max ~25 rules. Consolidated on every capture. History lives in git log. Do not hand-edit. -->
 
 ## Active rules (hard constraints — read on every content generation)
 
